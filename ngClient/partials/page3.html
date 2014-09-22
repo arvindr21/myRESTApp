@@ -1,0 +1,22 @@
+<div class="container" ng-controller="Page3Ctrl">
+  <div class="page-header">
+    <h3>List of products from the REST API
+      <code>/api/v1/products</code>
+    </h3>
+  </div>
+
+
+  <p class="lead">
+    <table class="table table-striped">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+      </tr>
+      <tr ng-repeat="p in products">
+        <td>{{p.id}}</td>
+        <td>{{p.name}}</td>
+      </tr>
+    </table>
+  </p>
+
+</div>

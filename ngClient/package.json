@@ -1,0 +1,12 @@
+{
+  "name": "ngclient",
+  "version": "0.1.0",
+  "dependencies": {
+    "bower": "^1.3.9",
+    "gulp": "^3.8.7",
+    "gulp-connect": "^2.0.6"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  }
+}

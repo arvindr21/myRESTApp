@@ -1,0 +1,16 @@
+<div class="container" ng-controller="Page2Ctrl">
+  <div class="page-header">
+    <h3>This is from {{ name }}</h3>
+  </div>
+
+  <p class="lead"> Demo a simple filter
+  <code>checkmark</code>
+  </p>
+
+  <p class="lead">
+  	<div ng-repeat="item in list">
+  		{{item}} -->  {{item | checkmark}}
+  	</div>
+  </p>
+ 
+</div>
